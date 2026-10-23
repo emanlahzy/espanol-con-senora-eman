@@ -43,8 +43,8 @@
 </main>
 <script>
 /* CONFIGURACIÓN: sustituye estos valores por los de tu proyecto Supabase. */
-const SUPABASE_URL = "PEGA_AQUI_LA_URL_DE_SUPABASE";
-const SUPABASE_ANON_KEY = "PEGA_AQUI_LA_CLAVE_PUBLICA_ANON";
+const SUPABASE_URL = "https://fdczwkybangphiucmeha.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable__qaxPb_qLkLjNApQZ0qAwQ_1JBBnuEO";
 const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("PEGA_AQUI") && !SUPABASE_ANON_KEY.includes("PEGA_AQUI") && window.supabase;
 const db = configured ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 const $=id=>document.getElementById(id);
